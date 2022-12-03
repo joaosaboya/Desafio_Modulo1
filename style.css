@@ -17,7 +17,7 @@ h2{
     border: solid black;
     width: 16vw;
 }
-nav{
+.menuNavHeader{
     display: flex;
     justify-content: space-between;
 }
@@ -76,6 +76,8 @@ h1{
     color: white;
 }
 .secondSectionMain{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
     height: 160vh;
     display: flex;
     flex-wrap: wrap;
@@ -83,10 +85,44 @@ h1{
     align-items: center;
 }
 figure{
+    margin: 7px;
     height: 45vh;
     border:solid rebeccapurple;
 }
 figure img{
     height: 45vh;
     width: 20vw;
+}
+footer{
+    display: flex;
+    align-items: center;
+    height: 15vh;
+    background-color: #f4f4f4;
+    border: solid rosybrown;
+}
+.socialNavFooter{
+    padding-right: 2vw;
+    display: flex;
+    justify-content: center;
+    border: solid blue;
+    width: 35vw;
+}
+.socialNavFooter a img{
+    display: flex;
+    border: solid red;
+    height: 5vh;
+    width: 4vw;
+}
+h4{
+    border: solid black;
+    width: 8vw;
+    font-size: 14px;
+    font-weight: 700;
+}
+p{
+    width: 33vw;
+    border: solid red;
+    font-size: 11px;
+    font-weight: 400;
+
 }
