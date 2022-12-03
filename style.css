@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    height: 12.5vh;
+    display: flex;
+    justify-content: space-between;
+}
+h2{ 
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 1.7em;
+    border: solid black;
+    width: 16vw;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    justify-content: flex-start;
+    align-items: center;
+    border: solid red;
+    font-size: 15px;
+    font-weight: bold 40px;
+    display: flex;
+    list-style: none;
+    width: 35vw;
+}
+li{
+    color:  #848484;
+    width: 5vw;
+    border: solid tomato;
+}
+.liUlHeader{
+    display: flex;
+    justify-content: center;
+    width: 9.5vw;
+    color: black;
+    font-weight: 900;
+    font-size: 17px;
+}
+.firstSectionMain{
+    height: 90vh;
+    /*border: solid skyblue;*/
+    background-image: url('./assets/laranja\ azul\ recorte.png');
+    background-size: cover;
+}
+h1{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    border: solid purple;
+    height: 45vh;
+    width: 66vw;
+    color: white;
+    font-size: 55px;
+    font-weight: 700;
+}
+.divSectionMain{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    border: solid green;
+    height: 16vh;
+    width: 22vw;
+}
+.divSectionMain a{
+    font-size: 25px;
+    font-weight: 300;
+    text-decoration: none;
+    color: white;
+}
+.secondSectionMain{
+    height: 160vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+figure{
+    height: 45vh;
+    border:solid rebeccapurple;
+}
+figure img{
+    height: 45vh;
+    width: 20vw;
+}
