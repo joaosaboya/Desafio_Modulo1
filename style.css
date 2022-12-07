@@ -14,7 +14,7 @@ h2{
     align-items: center;
     justify-content: flex-end;
     font-size: 1.7em;
-    border: solid black;
+    /*border: solid black;*/
     width: 16vw;
 }
 .menuNavHeader{
@@ -24,7 +24,7 @@ h2{
 ul{
     justify-content: flex-start;
     align-items: center;
-    border: solid red;
+    /*border: solid red;*/
     font-size: 15px;
     font-weight: bold 40px;
     display: flex;
@@ -34,12 +34,31 @@ ul{
 li{
     color:  #848484;
     width: 5vw;
-    border: solid tomato;
+    /*border: solid tomato;*/
+}
+li a{
+    text-decoration: none;
+    color: #848484;
 }
 .liUlHeader{
+    width: 9.5vw;
+}
+.liUlHeader a{
     display: flex;
     justify-content: center;
-    width: 9.5vw;
+    color: black;
+    font-weight: 900;
+    font-size: 16px;
+    /*border: solid blue;*/
+}
+.liUlHeader :hover{
+    font-size: 18px;
+    transition: 0.5s;
+}
+li :hover{
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.9s;
     color: black;
     font-weight: 900;
     font-size: 17px;
@@ -54,26 +73,31 @@ h1{
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    border: solid purple;
+    /*border: solid purple;*/
     height: 45vh;
     width: 66vw;
     color: white;
     font-size: 55px;
     font-weight: 700;
 }
-.divSectionMain{
+.pSectionMain{
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    border: solid green;
+    /*border: solid green;*/
     height: 16vh;
     width: 22vw;
 }
-.divSectionMain a{
+.pSectionMain a{
     font-size: 25px;
     font-weight: 300;
     text-decoration: none;
     color: white;
+}
+.aDivSection:hover{
+    font-size: 28px;
+    transition: 0.9s;
+    text-decoration-line: underline;
 }
 .secondSectionMain{
     padding-top: 10vh;
@@ -87,42 +111,45 @@ h1{
 figure{
     margin: 7px;
     height: 45vh;
-    border:solid rebeccapurple;
+    /*border:solid rebeccapurple;*/
 }
 figure img{
     height: 45vh;
     width: 20vw;
+}
+figure img:hover{
+    transform: scale(1.09);
+    transition: all 1s;
 }
 footer{
     display: flex;
     align-items: center;
     height: 15vh;
     background-color: #f4f4f4;
-    border: solid rosybrown;
+    /*border: solid rosybrown;*/
 }
 .socialNavFooter{
     padding-right: 2vw;
     display: flex;
     justify-content: center;
-    border: solid blue;
+    /*border: solid blue;*/
     width: 35vw;
 }
 .socialNavFooter a img{
     display: flex;
-    border: solid red;
+    /*border: solid red;*/
     height: 5vh;
     width: 4vw;
 }
 h4{
-    border: solid black;
+    /*border: solid black;*/
     width: 8vw;
     font-size: 14px;
     font-weight: 700;
 }
 p{
     width: 33vw;
-    border: solid red;
+    /*border: solid red;*/
     font-size: 11px;
     font-weight: 400;
-
 }
