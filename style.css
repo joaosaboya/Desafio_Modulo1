@@ -5,6 +5,11 @@
     font-family: 'Montserrat', sans-serif;
 }
 header{
+    /*border: solid black;*/
+    z-index: 1;
+    width: 100%;
+    background-color: white;
+    position: fixed;
     height: 12.5vh;
     display: flex;
     justify-content: space-between;
@@ -34,6 +39,7 @@ ul{
 li{
     color:  #848484;
     width: 5vw;
+    transition: 0.5s;
     /*border: solid tomato;*/
 }
 li a{
@@ -53,7 +59,6 @@ li a{
 }
 .liUlHeader :hover{
     font-size: 18px;
-    transition: 0.5s;
 }
 li :hover{
     text-decoration: none;
@@ -114,12 +119,12 @@ figure{
     /*border:solid rebeccapurple;*/
 }
 figure img{
+    transition: all 1s;
     height: 45vh;
     width: 20vw;
 }
 figure img:hover{
     transform: scale(1.09);
-    transition: all 1s;
 }
 footer{
     display: flex;
@@ -153,3 +158,12 @@ p{
     font-size: 11px;
     font-weight: 400;
 }
+/*@media(max-width: 375px){
+    header{
+        background-color: deeppink;
+        height: 3vh;
+    }
+    h2{
+        font-size: 1em;
+    }
+}*/
