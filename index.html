@@ -7,13 +7,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@100;200;400;600;900&display=swap" rel="stylesheet">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Desafio_Modulo1_VnW</title>
 </head>
 <body>
     <header>
         <h2>Portflow</h2>
-        <nav class="menuNavHeader">
+        <i class="material-icons" onclick="clickMenu()">menu</i>
+        <menu id="itens" class="menuHeader">
             <ul>
                 <li><a class="liUlSimple" href="">Home</a></li>
                 <li><a class="liUlSimple" href="">Blog</a></li>
@@ -21,55 +23,69 @@
                 <li class="liUlHeader"><a href="">Portfólio</a></li>
                 <li><a class="liUlSimple" href="">Contato</a></li>
             </ul>
-        </nav>
+        </menu>
     </header>
     <main>
         <section class="firstSectionMain">
             <h1>Imagine, Discuta, Desenhe.</h1>
             <p class="pSectionMain">
-            <a class="aDivSection" href="#">FALE CONOSCO</a>
+            <a class="aPSection" href="#">FALE CONOSCO</a>
             </p>
         </section>
         <section class="secondSectionMain">
-            <figure><img src="./assets/NoPath - Copia (20)@2x.png" alt=""></figure>
-            <figure><img src="./assets/NoPath - Copia (22)@2x.png" alt=""></figure>
-            <figure><img src="./assets/NoPath - Copia (21)@2x.png" alt=""></figure>
-            <figure><img src="./assets/mokup telas@2x.png" alt=""></figure>
-            <figure><img src="./assets/NoPath - Copia (25)@2x.png" alt=""></figure>
-            <figure><img src="./assets/NoPath - Copia (27)@2x.png" alt=""></figure>
-            <figure><img src="./assets/NoPath - Copia (29)@2x.png" alt=""></figure>
-            <figure><img src="./assets/NoPath - Copia (23)@2x.png" alt=""></figure>
-            <figure><img src="./assets/NoPath - Copia (31)@2x.png" alt=""></figure>
-            <figure><img src="./assets/NoPath - Copia (32)@2x.png" alt=""></figure>
-            <figure><img src="./assets/NoPath - Copia (34)@2x.png" alt=""></figure>
-            <figure><img src="./assets/NoPath - Copia (33)@2x.png" alt=""></figure>
+            <figure class="figureImg1"><img src="./assets/NoPath - Copia (20)@2x.png" alt="Erva mate"></figure>
+            <figure class="figureImg2"><img src="./assets/NoPath - Copia (22)@2x.png" alt="Pacote de pão de queijo"></figure>
+            <figure class="figureImg3"><img src="./assets/NoPath - Copia (21)@2x.png" alt="Pote de Muance"></figure>
+            <figure class="figureImg4"><img src="./assets/mokup telas@2x.png" alt="Telas digitais de diferentes tamanhos"></figure>
+            <figure class="figureImg5"><img src="./assets/NoPath - Copia (25)@2x.png" alt="Acessorios de empresa"></figure>
+            <figure class="figureImg6"><img src="./assets/NoPath - Copia (27)@2x.png" alt="Caneca estampada"></figure>
+            <figure class="figureImg7"><img src="./assets/NoPath - Copia (29)@2x.png" alt="Telas digitais de diferentes tamanhos"></figure>
+            <figure class="figureImg8"><img src="./assets/NoPath - Copia (23)@2x.png" alt="Barra de Seriais"></figure>
+            <figure class="figureImg9"><img src="./assets/NoPath - Copia (31)@2x.png" alt="Celular na Mão"></figure>
+            <figure class="figureImg10"><img src="./assets/NoPath - Copia (32)@2x.png" alt="Café torrado"></figure>
+            <figure class="figureImg11"><img src="./assets/NoPath - Copia (34)@2x.png" alt="Cameras e equipamentos"></figure>
+            <figure class="figureImg12"><img src="./assets/NoPath - Copia (33)@2x.png" alt="Fotos de praia e de fhechado"></figure>
         </section>
     </main>
     <footer>
         <nav class="socialNavFooter">
-            <a href="">
-                <img src="./assets/facebook icons.com_65484.svg" alt="">
+            <a href="Facebook.com">
+                <img src="./assets/facebook icons.com_65484.svg" alt="Icone Facebook">
             </a>
-            <a href="">
-                <img src="./assets/TWITTER_icon-icons.com_65486.svg" alt="">
+            <a href="Twitter.com">
+                <img src="./assets/TWITTER_icon-icons.com_65486.svg" alt="Icone Twitter">
             </a>
-            <a href="">
-                <img src="./assets/icon insta.svg" alt="">
+            <a href="Instagram.com">
+                <img src="./assets/icon insta.svg" alt="Icone Instagram">
             </a>
-            <a href="">
-                <img src="./assets/icon telegram.svg" alt="">
+            <a href="Telegram.com">
+                <img src="./assets/icon telegram.svg" alt="Icone Telegram">
             </a>
-            <a href="">
-                <img src="./assets/icon zap.svg" alt="">
+            <a href="Whatsapp.com">
+                <img src="./assets/icon zap.svg" alt="Icone Whatsapp">
             </a>
-            <a href="">
-                <img src="./assets/YOUTUBE_icon-icons.com_65487.svg" alt="">
+            <a href="Youtube.com">
+                <img src="./assets/YOUTUBE_icon-icons.com_65487.svg" alt="Icone Youtube">
             </a>
         </nav>
         <h4>Copyright</h4>
+        <div>
         <p>Layout Produzido Por Vai Na Web Para Fins Exclusivamente Educacionais.
-            Referência: Https://Br.Pinterest.com/Pin/464644886562510864/
+            Referência: Https://Br.Pinterest.com /Pin/464644886562510864/
         </p>
+        <button>
+            <a href="#">Topo</a>
+        </button>
+        </div>
     </footer>
+    <script>
+        function clickMenu(){
+            if (itens.style.display == 'block'){
+            itens.style.display = 'none'
+        } else {
+            itens.style.display = 'block'
+        }
+        }
+    </script>
 </body>
 </html>

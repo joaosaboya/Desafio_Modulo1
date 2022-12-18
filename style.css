@@ -22,7 +22,11 @@ h2{
     /*border: solid black;*/
     width: 16vw;
 }
-.menuNavHeader{
+.material-icons{
+    /*border: violet solid;*/
+    display: none;
+}
+.menuHeader{
     display: flex;
     justify-content: space-between;
 }
@@ -99,7 +103,7 @@ h1{
     text-decoration: none;
     color: white;
 }
-.aDivSection:hover{
+.aPSection:hover{
     font-size: 28px;
     transition: 0.9s;
     text-decoration-line: underline;
@@ -158,12 +162,166 @@ p{
     font-size: 11px;
     font-weight: 400;
 }
-/*@media(max-width: 375px){
+button{
+    display: none;
+}
+@media(max-width: 375px){
     header{
-        background-color: deeppink;
-        height: 3vh;
+        z-index: 0;
+        /*background-color: deeppink;*/
+        height: 5vh;
+        width: 100vw;
+        justify-content: flex-end;
+        flex-direction: row-reverse;
     }
     h2{
-        font-size: 1em;
+        justify-content: center;
+        width: 40vh;
+        /*border: red solid;*/
+        font-size: 1.3em;
+        font-weight: 600;
     }
-}*/
+    .material-icons{
+        background-color: black;
+        color: #f4f4f4;
+        text-align: center;
+        width: 20vh;
+        display: block;
+        height: 5vh;
+    }
+    .menuHeader{
+        position: fixed;
+        background-color: #333333;
+        cursor: pointer;
+        width: 50vw;
+        margin-top: 5vh;
+    }
+    ul{
+        align-items: flex-start;
+        flex-direction: column;
+        font-size: 1.5em;
+        text-align: center;
+    }
+    li{
+        border: #6E6E6E solid;
+        width: 50vw;
+        height: 6vh;
+    }
+    .liUlHeader{
+        text-align: start;
+        border: #6E6E6E solid;
+        width: 50vw;
+        
+    }
+    .liUlHeader a{
+        justify-content: center;
+        align-items: center;
+        font-size: 1em;
+        font-weight: 500;
+        color: #6E6E6E;
+    }
+    .firstSectionMain{
+        background-image: url('./assets/laranja\ azul\ recorte@222x.png');
+        height: 140vh;
+        /*border: black solid;*/
+    }
+    h1{
+        padding-left: 50px;
+        /*border: coral solid*/
+        width: 100vw;
+        height: 120vh;
+        font-size: 3em;
+        font-weight: 700;
+    }
+    .pSectionMain{
+        /*border: crimson solid;*/
+        width: 60vw;
+        height: 10vh;
+    }
+    .pSectionMain a{
+        font-size: 20px;
+        /*border: gold solid;*/
+    }
+    .secondSectionMain{
+        padding: 0;
+        height: 800vh;
+        /*border: green solid;*/
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding-top: 50px;
+    }
+    figure{
+        margin: 0;
+        /*border: darkblue solid;*/
+        height: 60vh;
+    }
+    figure img{
+        /*border: chocolate solid;*/
+        height: 60vh;
+        width: 80vw;
+    }
+    .figureImg1{order: 10;}
+    .figureImg2{order: 8;}
+    .figureImg3{order: 3;}
+    .figureImg4{order: 6;}
+    .figureImg5{order: 1;}
+    .figureImg6{order: 7;}
+    .figureImg7{order: 4;}
+    .figureImg8{order: 11;}
+    .figureImg9{order: 9;}
+    .figureImg10{order: 12;}
+    .figureImg11{order: 2;}
+    .figureImg12{order: 5;}
+
+    footer{
+        flex-direction: column;
+        align-items: flex-start;
+        height: 40vh;
+        width: 100vw;
+        padding-left: 10vw;
+        padding-right: 10vw;
+    }
+    .socialNavFooter{
+        background-color: #7FDBD4;
+        width: 80vw;
+        height: 10vh;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .socialNavFooter a img{
+        height: 7vh;
+        width: 9vw;
+    }
+    h4{
+        width: 50vw;
+        height: 8vh;
+        align-items: flex-end;
+        display: flex;
+        font-weight: 600;
+        font-size: 0.8em;
+    }
+    p{
+        width: 35vh;
+        height: 15vh;
+    }
+    div{
+        /*border: indigo solid;*/
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 80vw;
+    }
+    button{
+        width: 15vh;
+        height: 5vh;
+        background-color: #333333;
+    }
+    button{
+        display: block;
+    }
+    button a{
+        font-size: 1.2em;
+        color: #6E6E6E;
+        text-decoration: none;
+    }
+}
